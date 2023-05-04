@@ -40,11 +40,32 @@ function sum(...numbers) {
 //   }
       
 //   ფუნქციამ უნდა დააბრუნოს სახელი და გვარი ადგილის გამოტოვებით (მაგ: 'giorgi saakadze') 
-//   თუ isloggedin არის true და false თუ isloggedin ფროფერთი არის false;
+//   თუ isloggedin არის true და 
+// false თუ isloggedin ფროფერთი არის false; (  )
 
+
+let user3 = {
+    firstname: 'giorgi',
+    lastname: 'saakadze',
+    age: 32,
+    isloggedin: true
+  }
+
+   function printName(user) { 
+    if(user.isloggedin) {
+        return user.firstname + user.lastname;
+
+    } return false;
+
+   }
+
+   let resultFunction3 = printName(user3);
+   console.log(resultFunction3);
   
 //   4)შექმენით ფუნქცია რომელსაც გადაეცემა ერთი პარამეტრი. 
 //   ეს პარამეტრი უნდა იყოს რიცხვების მასივი და ფუნქციამ უნდა დააბრუნოს ამ რიცხვებიდან მაქსიმალური:
+
+
   
 //   5)დაწერეთ ფუნქცია, რომელიც პარამეტრად მიიიღებს ერთ რიცხვს და 
 //   გამოთვლის გადაცემული მნიშვნელობა კენტია თუ ლუწი; თუ ლუწია დააბრუნოს 
