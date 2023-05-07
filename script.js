@@ -38,6 +38,7 @@ function sum(...numbers) {
 //     age: 32,
 //     isloggedin: true
 //   }
+
       
 //   ფუნქციამ უნდა დააბრუნოს სახელი და გვარი ადგილის გამოტოვებით (მაგ: 'giorgi saakadze') 
 //   თუ isloggedin არის true და 
@@ -65,13 +66,21 @@ let user3 = {
 //   4)შექმენით ფუნქცია რომელსაც გადაეცემა ერთი პარამეტრი. 
 //   ეს პარამეტრი უნდა იყოს რიცხვების მასივი და ფუნქციამ უნდა დააბრუნოს ამ რიცხვებიდან მაქსიმალური:
 
+      
 
   
 //   5)დაწერეთ ფუნქცია, რომელიც პარამეტრად მიიიღებს ერთ რიცხვს და 
 //   გამოთვლის გადაცემული მნიშვნელობა კენტია თუ ლუწი; თუ ლუწია დააბრუნოს 
 //   - ‘this number is even; თუ კენტია დააბრუნოს - this number is odd;
   
+let oddEvenFunction = (z) => {
+    if (z % 2 == 0) {
+        return "this number is even";
+    } return "this number is odd"
+ } 
 
+ let oddEvenResult = oddEvenFunction(5);
+ console.log(oddEvenResult);
 
 // 6) მოცემულია მასივი
 // let array = ['html', 'css', 'python', 'javascript', 'bootstrap'];
